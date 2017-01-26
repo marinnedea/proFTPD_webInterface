@@ -29,11 +29,12 @@ The above should be changed to something more secure.
 - the interface itself is very self intuitive, just experiment with it and ofcourse, feel free to change it/improve it.
 
 # proFTPD config file changes
-- use the attached proftpd.conf file as an example on how your proftptd.conf file should look like. 
+- use the attached proftpd.conf and modules.conf files as an example on how your files should look like. 
 - copy "as it is" the lines from 90 to 143 from my sample proftpd.conf file in your proftpd.conf file and make sure there are no conflicts with already existing settings.
+- for the modules, for every uncommented module in modules.conf make sure you DO HAVE the module installed. Please refer to the http://proftpd.org page for instructions.
 
 # Support
-- unfortunatelly, I don't have the time for it. Everything is provided as it is. If you need support, please rememeber that I would probably never answer your question in time. 
+Unfortunatelly, I don't have the time for it. Everything is provided as it is. If you need support, please rememeber that I would probably never answer your question in time. 
 
 # To do
 I should completelly rewrite and clean the code. There are many chunks of code just lying around in pages, that could be transformed in some specific functions and called only when needed.,, but didn't had the time to organize it. I tried to comment and document the code as much as I could, but most of the code was writen on necessity basis.
