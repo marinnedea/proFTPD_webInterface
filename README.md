@@ -9,7 +9,7 @@ Another ProFTPD web interface built in PHP with MySQL backend.
 - A webserver running on the same machine with the proFTPD server. I used the steps in this tutorial: https://www.howtoforge.com/tutorial/install-apache-with-php-and-mysql-lamp-on-debian-jessie/ 
 
 # Default credentials:
-- username: test@user.com
+- username: admin@domain.com
 - password: Passw0rd
 
 The above should be changed to something more secure.
