@@ -1,5 +1,29 @@
-# proFTPD_webInterface
+# proFTPD webInterface for Admins only!
 Another ProFTPD web interface built in PHP with MySQL backend.
+
+---
+# Please read this first!
+
+**Security Considerations:**
+The project lacks built-in security features. It's crucial to implement measures such as securing directories and using strong passwords. 
+While functional, there's potential for code optimization and restructuring in this project, however, better alternatives are already available, therefore I decided to archive this project.
+
+**Alternative Solutions:**
+If you're seeking more robust alternatives, consider the following projects:
+
+- **[ProFTPd-Admin by ChristianBeer](https://github.com/ChristianBeer/ProFTPd-Admin):** A graphical user interface for ProFTPD with MySQL support, updated to support the latest PHP versions. 
+
+- **[ProFTPd-Admin-Secure-Version by mkkeck](https://github.com/mkkeck/ProFTPd-Admin-Secure-Version):** An enhanced version with built-in admin login and additional security features. 
+
+- **[ProFTPd-Admin-Reloaded by hexblot](https://github.com/hexblot/ProFTPd-Admin-Reloaded):** A fork focusing on security enhancements and modern PHP support. 
+
+These alternatives offer improved security, better code organization, which might align more closely with your requirements.
+
+
+---
+
+
+
 
 # About the Web Interface
 - the whole code is based on the https://github.com/thedigicraft/Atom.CMS project. I only used the "admin area" of the project and customized it according to my needs.
